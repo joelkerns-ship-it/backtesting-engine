@@ -1,0 +1,121 @@
+{
+  "trades": [
+    {
+      "id": "pos_1",
+      "entryTime": 1609459200000,
+      "entryPrice": 100.10,
+      "exitTime": 1609545600000,
+      "exitPrice": 105.00,
+      "quantity": 10.0,
+      "positionSize": 0.1,
+      "entryFee": 10.01,
+      "exitFee": 10.51,
+      "pnl": 479.48,
+      "pnlPercent": 4.79,
+      "rMultiple": 1.92,
+      "duration": 86400000,
+      "win": true
+    },
+    {
+      "id": "pos_2",
+      "entryTime": 1609632000000,
+      "entryPrice": 105.31,
+      "exitTime": 1609718400000,
+      "exitPrice": 104.50,
+      "quantity": 9.49,
+      "positionSize": 0.1,
+      "entryFee": 10.05,
+      "exitFee": 9.92,
+      "pnl": -76.93,
+      "pnlPercent": -0.77,
+      "rMultiple": -0.31,
+      "duration": 86400000,
+      "win": false
+    },
+    {
+      "id": "pos_3",
+      "entryTime": 1609804800000,
+      "entryPrice": 104.21,
+      "exitTime": 1609891200000,
+      "exitPrice": 108.75,
+      "quantity": 9.60,
+      "positionSize": 0.1,
+      "entryFee": 9.99,
+      "exitFee": 10.44,
+      "pnl": 432.42,
+      "pnlPercent": 4.32,
+      "rMultiple": 1.73,
+      "duration": 86400000,
+      "win": true
+    }
+  ],
+  "equityCurve": [
+    {
+      "timestamp": 1609459200000,
+      "equity": 10000.00,
+      "cash": 8979.89,
+      "drawdown": 0.00
+    },
+    {
+      "timestamp": 1609545600000,
+      "equity": 10479.48,
+      "cash": 9989.99,
+      "drawdown": 0.00
+    },
+    {
+      "timestamp": 1609632000000,
+      "equity": 10479.48,
+      "cash": 9989.99,
+      "drawdown": 0.00
+    },
+    {
+      "timestamp": 1609718400000,
+      "equity": 10402.55,
+      "cash": 9990.04,
+      "drawdown": 76.93
+    },
+    {
+      "timestamp": 1609804800000,
+      "equity": 10402.55,
+      "cash": 9990.04,
+      "drawdown": 76.93
+    },
+    {
+      "timestamp": 1609891200000,
+      "equity": 10834.97,
+      "cash": 9999.48,
+      "drawdown": 0.00
+    }
+  ],
+  "metrics": {
+    "totalTrades": 3,
+    "winningTrades": 2,
+    "losingTrades": 1,
+    "winRate": 66.67,
+    "averageWin": 455.95,
+    "averageLoss": -76.93,
+    "profitFactor": 6.18,
+    "totalReturn": 8.35,
+    "cumulativePnL": 834.97,
+    "averageRMultiple": 1.11,
+    "sharpeRatio": 1.45,
+    "sortinoRatio": 2.12,
+    "maxDrawdown": 0.77,
+    "maxDrawdownDuration": 86400000,
+    "calmarRatio": 10.84,
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-05T00:00:00.000Z",
+    "initialCapital": 10000.00,
+    "finalEquity": 10834.97
+  },
+  "config": {
+    "initialCapital": 10000,
+    "positionSize": 0.1,
+    "stopLossPercent": 0.02,
+    "takeProfitPercent": 0.05,
+    "trailingStopPercent": 0.02,
+    "slippagePercent": 0.001,
+    "commissionPercent": 0.001,
+    "maxPositions": 1
+  }
+}
